@@ -1,0 +1,136 @@
+body {
+    max-height: 200vh; 
+    background-image: linear-gradient(
+      45deg,
+     #ED3A85,
+     #0B001A
+);
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.form-control {
+    display: block;
+    width: 800px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 60px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.btn-outline-success {
+    --bs-btn-color: black ;
+    --bs-btn-border-color: #0B001A;
+    background-color: #fff;
+    margin-top: 2%;
+}
+
+.titulo{
+    font-size:50px;
+    margin-left: 10%;
+}
+
+.categoria{
+    margin-left: 10%;
+}
+hr{
+    height: 3px;
+    background-color: lilac; 
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    color: #333; 
+    margin-right: 25px;
+    margin-left: 60px;
+    font-size: 20px;
+    width: 300px;
+  }
+  .btn-bioquimica {
+    background-color: #ED3A85; 
+  }
+ .card{
+    width: 100%; 
+    max-width: 300px; 
+    margin-left: 15%;
+    margin-top: 20px;
+    height: 450px;
+
+  }
+  .card img{
+    max-height: 150px;
+  }
+
+  .card body {
+    font-size: 14px; 
+    line-height: 1.2; 
+  }
+  
+  .custom-btn {
+    width: 130px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration:none;
+    align-items: center;
+   }
+   
+   .btn-1 {
+    background:black;
+    background:#ED3A85;
+    border: none;
+   }
+   .btn-1 a {
+    text-align: center;
+    line-height: 10px;
+    color: white; 
+    text-decoration: none; 
+}
+   
+   .btn-1:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   .btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+       inset -4px -4px 6px 0 rgba(255,255,255,.2),
+       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+   }
+   
+   .ps{
+    color: #333;
+   }
+
+   
